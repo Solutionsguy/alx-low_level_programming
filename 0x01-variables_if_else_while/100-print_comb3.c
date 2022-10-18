@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints all possible combinations of two different digits in ascending order separated by a comma
+ * main - prints all possible combinations of two different digits in
+ * ascending order separated by a comma
  */
 int main(void)
 {
@@ -15,7 +16,6 @@ int main(void)
 
 			if (digit1 == 8 && digit2 == 9)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
