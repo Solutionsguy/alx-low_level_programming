@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - prints numbers and states whether ispositive,negative or zero
- * return = 0
+ *
+ * Return: 0
  */
 int main(void)
 {
