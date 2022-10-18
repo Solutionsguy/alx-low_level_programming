@@ -1,4 +1,9 @@
+#include <stdio.h>
 #include <unistd.h>
+/**
+ * main - prints last part of quote in std error
+ * Return: 1 (success)
+ */
 int main(void)
 {
 	write(2,
