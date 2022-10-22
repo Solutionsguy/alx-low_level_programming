@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * mul - multiple two intengers
- * Return: 0
+ * @a: first int
+ * @b: second int
  */
 int mul(int a, int b)
 {
