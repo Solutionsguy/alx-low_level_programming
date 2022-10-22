@@ -4,7 +4,11 @@
  * _putchar - writes charater to standard output
  * Return: 1
  */
-int _putchar(char c)
+int _isdigit(int c)
 {
-	return (write(1, &c, 1));
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return(0);
+
 }
