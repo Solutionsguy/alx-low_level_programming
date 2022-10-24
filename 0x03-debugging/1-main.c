@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
  * main - causes infinite loop
- * @a: first intenger
- * @b: second intenger
- * @c: third intenger
  * Return: 0;
  *
  */
