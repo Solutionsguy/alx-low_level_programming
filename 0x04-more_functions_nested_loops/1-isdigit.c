@@ -1,6 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
+ * _isdigit - function that checks for adigit 0 through 9
  * _putchar - writes charater to standard output
  * Return: 1
  */
