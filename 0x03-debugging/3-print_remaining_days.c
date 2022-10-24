@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - prints days left in an year
+ * print_remaining_days - prints days remaining in a year
  * Return: void
  */
 
