@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints days left in an year
+ * @month: month in number format
+ * @day: month in number format
+ * @year: year
  * print_remaining_days - prints days remaining in a year
  * Return: void
  */
