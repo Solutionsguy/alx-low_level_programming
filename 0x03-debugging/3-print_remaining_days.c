@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * print_remaining_days - prints days remaining in a year
  * @month: month in number format
  * @day: month in number format
  * @year: year
- * print_remaining_days - prints days remaining in a year
  * Return: void
  */
 
