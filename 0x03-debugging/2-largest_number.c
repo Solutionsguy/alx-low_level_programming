@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - returns the largest number of the three
- * Description: 'the program's description'
+ * largest_number - returns the largest number of the three
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
  * Return: largest number
  */
 int largest_number(int a, int b, int c)
