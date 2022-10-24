@@ -1,7 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - returns the largest number of the three
+ * Description: 'the program's description'
  * Return: largest number
  */
 int largest_number(int a, int b, int c)
