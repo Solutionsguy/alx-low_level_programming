@@ -7,7 +7,7 @@
  * @n: number of elements to be printed
  */
 
-void print_array(int *a, int)
+void print_array(int *a, int n)
 {
 	int index;
 
