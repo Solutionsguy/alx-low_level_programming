@@ -6,7 +6,6 @@
  * @src: source string to copy
  * Return: a pointer to destination string @dest
  */
-
 char *_strcpy(char *dest, const char *src)
 {
 	int index = 0;
