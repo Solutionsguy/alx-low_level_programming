@@ -9,15 +9,15 @@
  *
  * Return: A pointer to the destination buffer @dest.
  */
-void *_memcpy(void *dest, const void *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+	unsigned int i = 0;
+	char *start = dest;
 
-	for (index = 0; index < n; index++)
-		destination[index] = source[index];
-
-	return (dest);
+	while (i < n)
+	{
+		*dest++ = *src++;
+		i++;
+	}
+	return (start);
 }
-
